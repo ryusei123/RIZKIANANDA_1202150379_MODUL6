@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.kyky.rizkiananda_1202150379_modul6.MainActivity">
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/passEditTextCreate"
+        android:layout_alignEnd="@+id/emailEditTextCreate"
+        android:layout_alignLeft="@+id/emailEditTextCreate"
+        android:layout_alignRight="@+id/emailEditTextCreate"
+        android:layout_alignStart="@+id/emailEditTextCreate"
+        android:layout_marginBottom="56dp"
+        android:src="@drawable/c04a005e64191d2d0050406fc6b8f3f7" />
+
+    <EditText
+        android:id="@+id/emailEditTextCreate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="132dp"
+        android:ems="10"
+        android:hint="Masukkan Email"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="66dp"
+        tools:layout_editor_absoluteY="128dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:id="@+id/passEditTextCreate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/emailEditTextCreate"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:ems="10"
+        android:hint="Daftar Password"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/createUserBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/moveToLogin"
+        android:layout_alignStart="@+id/moveToLogin"
+        android:layout_below="@+id/passEditTextCreate"
+        android:layout_marginTop="26dp"
+        android:text="CREATE" />
+
+    <Button
+        android:id="@+id/moveToLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="56dp"
+        android:text="LOGIN" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/moveToLogin"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="14dp"
+        android:text="Sudah ada Akun ? Klik Login" />
+
+</RelativeLayout>
